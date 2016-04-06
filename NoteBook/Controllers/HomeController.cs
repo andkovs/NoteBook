@@ -13,7 +13,7 @@ namespace NoteBook.Controllers
 
         public ActionResult Index()
         {
-			//db.Database.Create();
+			//db.Database.Delete();
             ViewBag.Title = "Home Page";
 
             return View();

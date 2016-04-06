@@ -121,6 +121,9 @@ C:\ASP\NoteBook\NoteBook\obj\Debug\NoteBook.pdb
 \\psf\Home\Documents\Projects\NoteBook\NoteBook\bin\System.Web.WebPages.Deployment.xml
 \\psf\Home\Documents\Projects\NoteBook\NoteBook\bin\System.Web.WebPages.Razor.xml
 \\psf\Home\Documents\Projects\NoteBook\NoteBook\bin\System.Web.Optimization.xml
-\\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.dll
 \\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.pdb
+\\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.Migrations.InitialCreate.resources
+\\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.csproj.GenerateResource.Cache
+\\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.Migrations.update.resources
+\\psf\Home\Documents\Projects\NoteBook\NoteBook\obj\Debug\NoteBook.Migrations.update2.resources

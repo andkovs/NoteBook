@@ -3,12 +3,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
+using NoteBook.DAL;
+using System.Data.Entity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NoteBook.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
+        public int ProfileId { get; set; }
+
+		//[ForeignKey("ProfileId")]
+		//public Profile Profile { get; set; }
+
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager, string authenticationType)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
@@ -29,5 +37,12 @@ namespace NoteBook.Models
         {
             return new ApplicationDbContext();
         }
+
+        //Add tables to DataBase
+        public DbSet<Profile> Profiles { get; set; }
+        public DbSet<Store> Stores { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Company> Companies { get; set; }
     }
 }
